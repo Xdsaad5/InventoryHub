@@ -1,0 +1,148 @@
+﻿@{
+    Layout = null;
+}
+
+@model Product_Inventory.Models.User
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Content/Images/apple-icon.png">
+    <link rel="icon" type="image/png" href="~/Content/Images/favicon.png">
+    <title>
+        InventoryHub
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="~/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="~/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="~/js/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="~/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="~/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- Font Awesome Iocns cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="main-content position-relative bg-gray-100 max-height-vh-100 h-100">
+        <!-- Navbar -->
+        <nav class="navbar navbar-main navbar-expand-lg bg-transparent shadow-none position-absolute px-4 w-100 z-index-2">
+            <div class="container-fluid py-1">
+                <nav aria-label="breadcrumb">
+                    @*<ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 ps-2 me-sm-6 me-5">
+                            <li class="breadcrumb-item text-sm"><a class="text-white opacity-5" href="javascript:;">Pages</a></li>
+                            <li class="breadcrumb-item text-sm text-white active" aria-current="page">Profile</li>
+                        </ol>*@
+                    <h6 class="text-white font-weight-bolder ms-2" style="margin-top: 47%">User</h6>
+                </nav>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <div class="container-fluid">
+            <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('@Url.Content("~/Content/Images/curved-images/curved0.jpg")'); background-position-y: 50%;">
+                <span class="mask bg-gradient-primary opacity-6"></span>
+            </div>
+
+            <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+                <div class="row gx-4">
+                    <div class="col-auto my-auto d-flex align-items-center justify-content-center">
+                        <div class="h-100">
+                            <h5 class="mb-1">
+                                @Model.Name
+                            </h5>
+                            <p class="mb-0 font-weight-bold text-sm">
+                                Normal / Regular-User
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        &nbsp;
+        <div class="container-fluid py-4">
+            <div>
+                <div>
+                    <div class="card-header card card-body" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                        <section class="service-sec " id="services">
+
+                            <div class="row">
+                                <div class="card" style="background:rgb(177, 53, 53);">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h4 style="font-size:25px; color:white">Items</h4>
+                                    <a href="/deleteFoodSupplements" style="color: White">Go</a>
+                                </div>
+                                <div class="card" style="background: #9d370c; ">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h4 style="font-size:25px; color:white">Search Items</h4>
+                                    <a href="/addEquipments" style="color: White">Go</a>
+                                </div>
+                                <div class="card" style="background-color: #9d370c;">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h4 style="font-size:22px; color:white">Account Details</h4>
+                                    <a href="/addFoodSupplements" style="color: White">Go</a>
+                                </div>
+                                <div class="card" style="background:rgb(177, 53, 53);">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <h4 style="font-size:25px; color:white">Logout</h4>
+                                    <a href="/deleteEquipments" style="color: White">Go</a>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-4">
+            <div class="row">
+
+            </div>
+            <footer class="footer pt-3  ">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-6 mb-lg-0 mb-4">
+                            <div class="copyright text-center text-sm text-muted text-lg-start">
+                                ©
+                                <script>document.write(new Date().getFullYear())</script>,
+                                made with <i class="fa fa-heart"></i> by
+                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Saad Sultan</a>
+                                for a better web.
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                                <li class="nav-item">
+                                    <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Saad Sultan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://github.com/Xdsaad5" class="nav-link text-muted" target="_blank">Git Hub</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://www.linkedin.com/in/saad17/" class="nav-link text-muted" target="_blank">Linked In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://leetcode.com/xdsaad5/" class="nav-link pe-0 text-muted" target="_blank">LeetCode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+<script>document.getElementById('profileActivation').classList.add('active');</script>

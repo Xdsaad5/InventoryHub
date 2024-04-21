@@ -1,0 +1,71 @@
+﻿
+@model string;
+<main class="main-content  mt-0">
+        <section class="min-vh-100">
+            <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('@Url.Content("~/Content/Images/curved-images/curved14.jpg")');">
+                <span class="mask bg-gradient-dark opacity-6"></span>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5 text-center mx-auto">
+                            <h1 class="text-white mb-2 mt-5">InventoryHub</h1>
+                            <h5 class="text-lead text-white">Add New Item </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-lg-n10 mt-md-n11 mt-n10">
+                    <div>
+                        <div class="card z-index-0">
+                            <div class="card-header text-center pt-4">
+                                <h5>Product Details</h5>
+                            </div>
+                            <div class="card-body">
+                                <form role="form text-left" id="signUpForm" action="@Url.Action("addItemForm", "Admin")" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" name="Name" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="name-addon">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="number" name="Quantity" class="form-control" placeholder="Quantity" aria-label="Quantity" aria-describedby="Quantity-addon">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        
+                                        <div class="col-md-6 mb-3">
+                                            <input style="width: 758px;" type="text" name="Description" class="form-control" placeholder="Description" aria-label="Description" aria-describedby="Description-addon">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="number" name="Price" class="form-control" placeholder="Price" aria-label="Price" aria-describedby="price-addon">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <select name="category" class="form-control" placeholder="Product Type" aria-label="Categories" aria-describedby="Categories-addon">
+                                                <option value="Electronics">Electronics</option>
+                                                <option value="Home Appliances">Home Appliances</option>
+                                                <option value="Sports">Sports</option>
+                                                <option value="Jewelry">Jewelry</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row justify-content-center">
+                                        <input type="submit" value="Add Item" class="btn bg-gradient-dark w-100 my-4 mb-2">
+                                    </div>
+                                    <p style="text-align: center; font-weight: bold;">@Model</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 mx-auto text-center mt-1 py-3">
+                    <p class="mb-0 text-secondary">
+                        ©
+                        <script>document.write(new Date().getFullYear())</script> InventoryHub. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>

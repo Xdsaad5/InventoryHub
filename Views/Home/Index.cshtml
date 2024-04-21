@@ -1,0 +1,91 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Content/Images/apple-icon.png">
+    <link rel="icon" type="image/png" href="~/Content/Images/favicon.png">
+    <title>
+        InventoryHub
+    </title>
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Nucleo Icons -->
+    <link href="~/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="~/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="~/js/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="~/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link id="pagestyle" href="~/css/soft-ui-dashboard.css?v=1.0.7" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <!-- Font Awesome Iocns cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Nepcha Analytics (nepcha.com) -->
+    <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
+    <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    <script src="~/js/jquery.min.js"></script>
+
+</head>
+
+<body class="g-sidenav-show  bg-gray-100">
+    <div class="container-fluid">
+        <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('@Url.Content("~/Content/Images/curved-images/curved0.jpg")'); background-position-y: 50%;">
+            <span class="mask bg-gradient-primary opacity-6"></span>
+        </div>
+
+        <div class="card card-body blur shadow-blur mx-4 mt-n6 overflow-hidden">
+            <div class="row gx-4">
+                <div class="col-auto my-auto d-flex align-items-center justify-content-center">
+                    <div class="h-100">
+                        <h5 class="mb-1">
+                            Inventory Hub
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4">
+        <div>
+            <div>
+                <div class="card-header card card-body" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                    <section class="service-sec " id="services">
+
+                        <div class="row">
+                            <div class="card" style="background:rgb(177, 53, 53);">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h4 style="font-size:25px; color:white">User</h4>
+                                <a href="@Url.Action("signin","Home")" style="color: White">Go</a>
+                            </div>
+                            <div class="card" style="background-color: #9d370c;">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h4 style="font-size:25px; color:white">Admin</h4>
+                                <a href="@Url.Action("Index","Admin")" style="color: White">Go</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   Core JS Files   -->
+    <script src="~/js/core/popper.min.js"></script>
+    <script src="~/js/core/bootstrap.min.js"></script>
+    <script src="~/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="~/js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="~/js/plugins/chartjs.min.js"></script>
+
+</body>
+
+</html>
+

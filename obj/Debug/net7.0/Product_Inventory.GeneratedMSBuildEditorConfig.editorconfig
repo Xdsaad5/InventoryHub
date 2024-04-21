@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Product_Inventory
+build_property.RootNamespace = Product_Inventory
+build_property.ProjectDir = /Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/addItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vYWRkSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/listItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vbGlzdEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/searchItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc2VhcmNoSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc2lnbmluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Admin/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vc2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/listItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9saXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/searchItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zZWFyY2hJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaWduaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Home/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/AllTransactionsTable/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWxsVHJhbnNhY3Rpb25zVGFibGUvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/BalanceCard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQmFsYW5jZUNhcmQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/CreditCard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ3JlZGl0Q2FyZC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/DebitCard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRGViaXRDYXJkL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/NetCard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTmV0Q2FyZC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Components/TransactionsSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvVHJhbnNhY3Rpb25zU3VtbWFyeS9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Partials/_BalanceCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19CYWxhbmNlQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Partials/_CreditCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19DcmVkaXRDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Partials/_DebitCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19EZWJpdENhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/Partials/_NetCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19OZXRDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/_CustomUserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DdXN0b21Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/User/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/User/signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9zaWduaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/User/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9zaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/apple/VisulaStudioProjects/Product_Inventory/Product_Inventory/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

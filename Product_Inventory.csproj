@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\frostui\" />
+    <Content Remove="wwwroot\lib\frostui\tailwindcss\" />
+    <Content Remove="Views\Admin\admin-dashboard.cshtml" />
+    <Content Remove="Views\Admin\admin-sign-in.cshtml" />
+    <Content Remove="Views\Admin\admin-sign-up.cshtml" />
+    <Content Remove="Views\Admin\list-item.cshtml" />
+    <Content Remove="Views\Admin\search.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\frostui\" />
+    <Folder Include="wwwroot\lib\frostui\tailwindcss\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Admin\" />
+    <None Remove="Views\User\" />
+    <None Remove="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+  </ItemGroup>
+</Project>
